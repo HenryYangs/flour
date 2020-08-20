@@ -1,0 +1,5 @@
+{
+  "watch": [ "src", "types" ],
+  "exec": "npm run server",
+  "ext": "ts"
+}

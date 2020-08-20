@@ -1,0 +1,10 @@
+node_modules
+dist
+coverage
+logs
+src/config/db.ts
+todo.md
+
+.vscode
+
+yarn-error.log

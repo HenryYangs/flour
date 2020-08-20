@@ -1,0 +1,47 @@
+{
+  "name": "flour",
+  "version": "0.0.1",
+  "description": "Configuration Platform",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json --format stylish",
+    "lint-fix": "tslint --fix --project tsconfig.json",
+    "server": "ts-node index.ts",
+    "dev": "cross-env PROJECT_ENV=dev nodemon --config nodemon.json",
+    "build": "cross-env PROJECT=prod tsc --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenryYangs/flour.git"
+  },
+  "keywords": [
+    "config"
+  ],
+  "author": "HenryYang <sephenry@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HenryYangs/flour/issues"
+  },
+  "homepage": "https://github.com/HenryYangs/flour#readme",
+  "dependencies": {
+    "@types/koa-bodyparser": "^4.3.0",
+    "koa": "^2.13.0",
+    "koa-async-validator": "^0.4.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-mysql": "^1.0.3",
+    "koa-router": "^9.4.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
+    "@types/koa": "^2.11.4",
+    "@types/koa-router": "^7.4.1",
+    "cross-env": "^7.0.2",
+    "husky": "^4.2.5",
+    "nodemon": "^2.0.4",
+    "standard-version": "^9.0.0",
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.3",
+    "typescript": "^3.9.7"
+  }
+}
