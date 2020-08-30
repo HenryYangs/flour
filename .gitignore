@@ -4,6 +4,7 @@ coverage
 logs
 src/config/db.ts
 todo.md
+config.ts
 
 .vscode
 
