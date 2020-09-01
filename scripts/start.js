@@ -10,7 +10,8 @@ pm2.connect((error) => {
     pm2.start('./pm2.config.json', (err, app) => {
       console.log('start', pm2.disconnect)
       if (err) throw err
-      pm2.disconnect()
+      // pm2.disconnect(() => {})
+      process.exit(0);
     })
   })
 })

@@ -5,6 +5,7 @@
       "cwd": "./",
       "script": "./node_modules/.bin/ts-node",
       "args": "-T -r tsconfig-paths/register index.ts",
+      "instance": "max",
       "exec_interpreter": "node",
       "exec_mode": "cluster",
       "error_file": "logs/error.log",
