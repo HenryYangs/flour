@@ -2,6 +2,7 @@ node_modules
 dist
 coverage
 logs
+bizLogs
 src/config/db.ts
 todo.md
 config.ts

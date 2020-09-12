@@ -25,16 +25,20 @@
   "homepage": "https://github.com/HenryYangs/flour#readme",
   "dependencies": {
     "@types/koa-bodyparser": "^4.3.0",
+    "dayjs": "^1.8.35",
+    "ip": "^1.1.5",
     "koa": "^2.13.0",
     "koa-async-validator": "^0.4.1",
     "koa-bodyparser": "^4.3.0",
     "koa-mysql": "^1.0.3",
     "koa-router": "^9.4.0",
-    "pm2": "^4.4.1"
+    "pm2": "^4.4.1",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
     "@commitlint/config-conventional": "^9.1.2",
+    "@types/ip": "^1.1.0",
     "@types/koa": "^2.11.4",
     "@types/koa-router": "^7.4.1",
     "cross-env": "^7.0.2",
